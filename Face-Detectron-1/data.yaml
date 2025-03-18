@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['face']
+
+roboflow:
+  workspace: detectron-3dgu3
+  project: face-detectron
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detectron-3dgu3/face-detectron/dataset/1
